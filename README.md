@@ -1,6 +1,6 @@
 # Manipulando elementos con JavaScript
 
-![cover](/img/vikingsposter.jpg)
+![cover](public/img/vikingsposter.jpg)
 
 ## Clase 92, 94
 
