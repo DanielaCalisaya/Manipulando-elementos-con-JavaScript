@@ -56,5 +56,9 @@ $p.forEach((element, index) => {
     }
 })
 
+/* Ejemplo con innerHTML */
+$h2.innerHTML += `<a href="https://google.com">${userName.trim()}</a>`
+/* aqui la palabra que esta en el h2 sera una a que nos lleve a otro sitio */
+
 /* solo el paso 1, avanzar con los demas 
 paso dos, no es un prompt sino un confirm*/
