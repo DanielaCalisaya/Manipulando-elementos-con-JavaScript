@@ -1,29 +1,28 @@
 /* alert('Vinculado') */
+/* querySelector me permitirá capturar por etiqueta, por id o por clase */
 
 let main = document.querySelector('main');
-console.log(main);
 
-/* --- */
-let title = document.querySelector('h2');
-console.log(title);
+let h2 = document.querySelector('.subtitulo'); /* aqui capturo por su clase porque hay dos h2 */
 
-/* --- */
-let link = document.querySelector('a');
-console.log(link);
+let a = document.querySelector('a');
 
-/* --- */
-let parrafo = document.querySelector('p');
-console.log(parrafo);
+let p = document.querySelectorAll('p'); /* All porque hay más de 1 p */
 
-/* -------------------------------------------- */
+
+/* ---------------------y sino función para menos código----------------------- */
 function qs (element) {
     return document.querySelector(element)
 }
-
+let main = qs('.container')
 let h2 = qs('.subtitulo')
-let a = qs('a') /* al hacer esta funcion hacemos menos codigo */
-let p = document.querySelector('p')
+let a = qs('a') 
+let p = document.querySelectorAll('p')
+
+main.style.display = "block" /* Aqui capturamos para que el elemento que tenia display none cambie a block desde aca */
 let $body = qs('body');
+/* Estan el alert, el prompt y el confirm */
+
 
 let userName = prompt('Ingrese su nombre') || 'Invitad@';
 userName.trim() !== "" ? $h2.innerText += `${userName}` : $h2.innerText += 'Invitado';
