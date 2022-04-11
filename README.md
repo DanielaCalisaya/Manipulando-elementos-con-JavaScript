@@ -11,6 +11,8 @@ Para esto, deberemos utilizar JavaScript, pero del lado del cliente (front-end).
 posibilidades nos brinda.
 ¡Buena suerte!😎👍✨
 
+## M8 C37
+
 ## Clase 92, 94
 
 ## Ubicacion -> Programación/TRABAJOS PRACTICOS/Manipulando elementos con JavaScript
